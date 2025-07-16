@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import DevPFP from '../../../assets/images/dev-naza-pfp.jpg';
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
             <h2>About Me</h2>
             <div className="about-content">
                 <div className="about-image">
-                    <img src="src/assets/images/dev-naza-pfp.jpg" alt="Anthony Chinaza" />
+                    <img src={DevPFP} alt="Anthony Chinaza" />
                 </div>
                 <div className="about-text">
                     <h3>Front-end Web Developer based in Nigeria</h3>

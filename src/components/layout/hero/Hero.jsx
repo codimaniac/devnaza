@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram } from 'react-icons/fa';
 import './hero.css'
 import Button from '../../ui/button/Button';
+import HeroImage from '../../../assets/images/hero-svg.svg';
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="src/assets/images/hero-svg.svg" alt="Developer working" />
+                    <img src={HeroImage} alt="Developer working" />
                 </div>
             </div>
         </div>

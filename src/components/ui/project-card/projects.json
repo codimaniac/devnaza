@@ -3,7 +3,7 @@
         "id": 1,
         "title": "DevNaza",
         "description": "A portfolio website showcasing my projects and skills.",
-        "image": "../src/assets/images/dev-naza-portfolio.png",
+        "image": "/images/dev-naza-portfolio.png",
         "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}],
         "liveDemo": "#",
         "code": "#"
