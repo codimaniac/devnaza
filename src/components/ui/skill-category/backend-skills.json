@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Node.js",
+    "icon": "DiNodejs"
+  },
+  {
+    "name": "Express",
+    "icon": "SiExpress"
+  },
+  {
+    "name": "Python",
+    "icon": "DiPython"
+  },
+  {
+    "name": "Django",
+    "icon": "SiDjango"
+  },
+  {
+    "name": "PHP",
+    "icon": "DiPhp"
+  },
+  {
+    "name": "Laravel",
+    "icon": "SiLaravel"
+  },
+  {
+    "name": "REST APIs",
+    "icon": "FaServer"
+  },
+  {
+    "name": "GraphQL",
+    "icon": "SiGraphql"
+  }
+]

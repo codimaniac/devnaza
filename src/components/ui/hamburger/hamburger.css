@@ -1,0 +1,32 @@
+/* Adjust hamburger menu for dark mode */
+@media screen and (max-width: 768px) {
+    body.dark-mode .nav-links {
+        background-color: #1e1e1e;
+    }
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}  
+
+.hamburger svg {
+    font-size: 14px;
+    color: black;
+}
+
+.hamburger .fa-bars {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.hamburger .fa-times {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+}

@@ -1,0 +1,131 @@
+/* Header & Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(248, 250, 252, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(248, 250, 252, 0.98);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+body.dark-mode header {
+    background-color: rgba(18, 18, 18, 0.95) !important;
+}
+
+body.dark-mode .nav-links a {
+    color: #f8f9fa;
+}
+
+body.dark-mode #about,
+body.dark-mode #projects,
+body.dark-mode .contact-form,
+body.dark-mode .skill-category {
+    background-color: #1e1e1e;
+    color: #f8f9fa;
+}
+
+body.dark-mode p {
+    color: #b0b0b0;
+}
+
+body.dark-mode .project-card,
+body.dark-mode .skill-category {
+    background-color: #252525;
+    color: #f8f9fa;
+}
+
+body.dark-mode .project-tag,
+body.dark-mode .skill-item {
+    background-color: #333;
+    color: #f8f9fa;
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group textarea {
+    background-color: #333;
+    color: #f8f9fa;
+    border-color: #444;
+}
+
+body.dark-mode .btn-outline {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+body.dark-mode .btn-outline:hover {
+    color: #121212;
+}
+
+body.dark-mode footer {
+    background-color: #0a0a0a;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        padding-right: 0;
+        margin-bottom: 3rem;
+    }
+    
+    .hero-btns {
+        justify-content: center;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .about-image {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    section {
+        padding: 4rem 0;
+    }
+    
+    .hero-btns {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}

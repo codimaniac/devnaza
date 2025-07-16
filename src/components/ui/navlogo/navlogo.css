@@ -1,0 +1,14 @@
+.logo {
+    color: var(--primary-color);
+}
+
+.logo img {
+    height: 50px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        height: 40px;
+    }
+}

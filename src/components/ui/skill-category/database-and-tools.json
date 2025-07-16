@@ -1,0 +1,34 @@
+[
+    {
+      "name": "MongoDB",
+      "icon": "SiMongodb"
+    },
+    {
+      "name": "MySQL",
+      "icon": "SiMysql"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "SiPostgresql"
+    },
+    {
+      "name": "Git",
+      "icon": "SiGit"
+    },
+    {
+      "name": "Docker",
+      "icon": "SiDocker"
+    },
+    {
+      "name": "AWS",
+      "icon": "FaAws"
+    },
+    {
+      "name": "Firebase",
+      "icon": "SiFirebase"
+    },
+    {
+      "name": "Jest",
+      "icon": "SiJest"
+    }
+]

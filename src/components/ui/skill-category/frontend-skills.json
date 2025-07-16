@@ -1,0 +1,34 @@
+[
+    {
+        "name": "HTML5",
+        "icon": "FaHtml5"
+    },
+    {
+        "name": "CSS3",
+        "icon": "FaCss3"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "FaJs"
+    },
+    {
+        "name": "React",
+        "icon": "FaReact"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "SiTypescript"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "SiTailwindcss"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "FaBootstrap"
+    },
+    {
+        "name": "SASS",
+        "icon": "FaSass"
+    }
+]
