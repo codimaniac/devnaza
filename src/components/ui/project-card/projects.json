@@ -11,7 +11,7 @@
     {
         "id": 2,
         "title": "To-do List App",
-        "description": "A simple to-do list application with features like adding, marking completed task, and deleting tasks.",
+        "description": "A simple to-do list application with features like adding, editing, and deleting tasks.",
         "image": "/images/schedule-manager.png",
         "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "JavaScript", "icon": "FaJsSquare"}],
         "liveDemo": "https://schedulemanage.netlify.app/",
