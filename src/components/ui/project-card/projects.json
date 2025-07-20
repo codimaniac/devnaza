@@ -5,17 +5,17 @@
         "description": "A portfolio website showcasing my projects and skills.",
         "image": "/images/dev-naza-portfolio.png",
         "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}],
-        "liveDemo": "#",
-        "code": "#"
+        "liveDemo": "https://devnaza.netlify.app/",
+        "code": "https://github.com/codimaniac/devnaza.git"
     },
     {
         "id": 2,
-        "title": "E-commerce Platform",
-        "description": "A full-featured online store with product listings, cart functionality, and secure checkout.",
-        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "Node.js", "icon": "FaNodeJs"}, {"tag": "MongoDB", "icon": "FaDatabase"}, {"tag": "Stripe API", "icon": "FaStripe"}],
-        "liveDemo": "#",
-        "code": "#"
+        "title": "To-do List App",
+        "description": "A simple to-do list application with features like adding, marking completed task, and deleting tasks.",
+        "image": "/images/schedule-manager.png",
+        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "JavaScript", "icon": "FaJsSquare"}],
+        "liveDemo": "https://schedulemanage.netlify.app/",
+        "code": "https://github.com/codimaniac/To-Do-List.git"
     },
     {
         "id": 3,
