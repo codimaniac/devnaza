@@ -32,8 +32,8 @@ const ProjectCard = () => {
                             })}
                         </div>
                         <div className="project-links">
-                            <Button cta={true} label="Live Demo" href={liveDemo} />
-                            <Button cta={false} label="Code" href={code} />
+                            <Button cta={true} label="Live Demo" href={liveDemo} target='_blank' />
+                            <Button cta={false} label="Code" href={code} target='_blank' />
                         </div>
                     </div>
                 </div>

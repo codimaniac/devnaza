@@ -1,11 +1,16 @@
 import React from 'react'
 import './button.css'
 
-const Button = ({ cta, label, href }) => {
+const Button = ({ cta, label, href, target}) => {
   return (
-    <a href={href} className={`btn ${cta ? 'btn-outline' : ''}`}>{label}</a>
-    // <a href="#contact" className="btn btn-outline">Contact Me</a>
+    <a href={href} className={`btn ${cta ? 'btn-outline' : ''}`} target={target}>{label}</a>
   )
+}
+
+Button.defaultProps = {
+  cta: false,
+  target: '',
+  href: '#'
 }
 
 export default Button
