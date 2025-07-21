@@ -1,5 +1,6 @@
 import React from 'react'
 import './navlinks.css'
+import SocialLinks from '../social-links/SocialLinks'
 
 const NavLinks = ({ isOpen, toggleNav }) => {
   return (
@@ -9,6 +10,9 @@ const NavLinks = ({ isOpen, toggleNav }) => {
         <li><a href="#skills" onClick={isOpen ? toggleNav : undefined}>Skills</a></li>
         <li><a href="#projects" onClick={isOpen ? toggleNav : undefined}>Projects</a></li>
         <li><a href="#contact" onClick={isOpen ? toggleNav : undefined}>Contact</a></li>
+
+        { isOpen &&  <SocialLinks /> }
+        { isOpen && <p className="copyright">© 2025 Anthony Chinaza. All rights reserved.</p>}
       </ul>
   )
 }

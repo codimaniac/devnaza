@@ -29,6 +29,10 @@ body.dark-mode .nav-links a {
     color: #f8f9fa;
 }
 
+body.dark-mode .nav-links .social-icons a {
+    color: var(--primary-color);
+}
+
 body.dark-mode #about,
 body.dark-mode #projects,
 body.dark-mode .contact-form,
