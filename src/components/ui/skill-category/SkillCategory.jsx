@@ -27,7 +27,6 @@ const SkillCategory = ({category, categoryIcon, skills}) => {
                     <span className="skill-item" key={name}>{IconComponent && <IconComponent size={18} />} {name}</span>
                 );
             })}
-            {/* <span className="skill-item"><i className="fab fa-html5"></i> HTML5</span> */}
         </div>
     </div>
   )

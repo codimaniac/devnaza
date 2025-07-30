@@ -4,7 +4,7 @@
         "title": "DevNaza",
         "description": "A portfolio website showcasing my projects and skills.",
         "image": "/images/dev-naza-portfolio.png",
-        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}],
+        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "EmailJS", "icon": "FaEnvelopeOpen"}],
         "liveDemo": "https://devnaza.netlify.app/",
         "code": "https://github.com/codimaniac/devnaza.git"
     },
@@ -21,18 +21,18 @@
         "id": 3,
         "title": "Task Management App",
         "description": "A productivity application for organizing tasks with drag-and-drop functionality and team collaboration.",
-        "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-        "tags": [{"tag": "Vue.js", "icon": "FaVuejs"}, {"tag": "Firebase", "icon": "FaFire"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}],
+        "image": "/images/task-manager-dashboard.png",
+        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "D3.js", "icon": "FaChartBar"}, {"tag": "Express", "icon": "SiExpress"}, {"tag": "MongoDB", "icon": "FaDatabase"}],
         "liveDemo": "#",
-        "code": "#"
+        "code": "https://github.com/codimaniac/Task-Management-App"
     },
     {
         "id": 4,
-        "title": "Social Media Dashboard",
-        "description": "Analytics dashboard for tracking social media metrics across multiple platforms.",
-        "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1636&q=80",
-        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "D3.js", "icon": "FaChartBar"}, {"tag": "Express", "icon": "SiExpress"}, {"tag": "MongoDB", "icon": "FaDatabase"}],
-        "liveDemo": "#",
-        "code": "#"
+        "title": "Jumia Clone",
+        "description": "A clone of Jumia home page wih features such as carousel, a product card and a search bar etc.",
+        "image": "/images/Jumia.jpg",
+        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "TypeScript", "icon": "SiTypescript"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}],
+        "liveDemo": "https://jumiacopy.netlify.app/",
+        "code": "https://github.com/codimaniac/jumia-clone"
     }
 ]

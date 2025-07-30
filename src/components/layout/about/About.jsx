@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import DevPFP from '../../../assets/images/dev-naza-pfp.jpg';
+import Project from '../../ui/project-card/projects.json'
 
 const About = () => {
   return (
@@ -18,11 +19,11 @@ const About = () => {
                     <p>My approach combines technical expertise with creative problem-solving to deliver solutions that are not only functional but also visually appealing and user-friendly.</p>
                     <div className="experience">
                         <div className="experience-item">
-                            <h4>50+</h4>
+                            <h4>{Project.length}</h4>
                             <p>Projects Completed</p>
                         </div>
                         <div className="experience-item">
-                            <h4>5+</h4>
+                            <h4>2+</h4>
                             <p>Years Experience</p>
                         </div>
                     </div>

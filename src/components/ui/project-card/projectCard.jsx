@@ -24,9 +24,10 @@ const ProjectCard = () => {
                             {tags.map(({ tag, icon }) => {
                                 const prefix = icon.slice(0, 2); // e.g., 'Fa', 'Si'
                                 const IconComponent = iconLibraries[prefix]?.[icon];
+                                const isEmailJs = tag === "EmailJS"
                                 return (
                                     <span className="project-tag" key={tag}>
-                                        {IconComponent && <IconComponent />} {tag}
+                                        {IconComponent && <IconComponent style={ isEmailJs ? {transform: 'rotate(45deg)'} : undefined} />} {tag}
                                     </span>
                                 );
                             })}

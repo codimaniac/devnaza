@@ -4,10 +4,6 @@
       "icon": "SiMongodb"
     },
     {
-      "name": "MySQL",
-      "icon": "SiMysql"
-    },
-    {
       "name": "PostgreSQL",
       "icon": "SiPostgresql"
     },
@@ -16,19 +12,27 @@
       "icon": "SiGit"
     },
     {
-      "name": "Docker",
-      "icon": "SiDocker"
+      "name": "Git",
+      "icon": "FaGithub"
     },
     {
-      "name": "AWS",
-      "icon": "FaAws"
+      "name": "Figma",
+      "icon": "SiFigma"
+    },
+    {
+      "name": "Material UI",
+      "icon": "SiMui"
+    },
+    {
+      "name": "NPM",
+      "icon": "SiNpm"
     },
     {
       "name": "Firebase",
       "icon": "SiFirebase"
     },
     {
-      "name": "Jest",
-      "icon": "SiJest"
+      "name": "Vite",
+      "icon": "SiVite"
     }
 ]
