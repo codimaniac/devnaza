@@ -23,7 +23,7 @@
         "description": "A productivity application for organizing tasks with drag-and-drop functionality and team collaboration.",
         "image": "/images/task-manager-dashboard.png",
         "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "D3.js", "icon": "FaChartBar"}, {"tag": "Express", "icon": "SiExpress"}, {"tag": "MongoDB", "icon": "FaDatabase"}],
-        "liveDemo": "#",
+        "liveDemo": "https://taskmanaager.netlify.app/",
         "code": "https://github.com/codimaniac/Task-Management-App"
     },
     {
