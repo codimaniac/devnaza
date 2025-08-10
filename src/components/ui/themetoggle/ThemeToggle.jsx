@@ -6,8 +6,9 @@ const ThemeToggle = () => {
   const toggleTheme = () => {
     const body = document.body;
     body.classList.toggle('dark-mode');
-    const isDarkMode = body.classList.contains('dark-mode');
   };
+  // const body = document.body;
+  // const isDarkMode = body.classList.contains('dark-mode');
 
   return (
     <div className="theme-toggle">

@@ -15,7 +15,7 @@ const About = () => {
                 </div>
                 <div className="about-text">
                     <h3>Front-end Web Developer based in Nigeria</h3>
-                    <p>I specialize in creating modern, responsive websites and web applications using the latest technologies. With over 5 years of experience in the industry, I've helped numerous clients bring their digital visions to life.</p>
+                    <p>I specialize in creating modern, responsive websites and web applications using the latest technologies. With over 2 years of experience in the industry, I've helped numerous clients bring their digital visions to life.</p>
                     <p>My approach combines technical expertise with creative problem-solving to deliver solutions that are not only functional but also visually appealing and user-friendly.</p>
                     <div className="experience">
                         <div className="experience-item">

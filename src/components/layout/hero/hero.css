@@ -35,6 +35,22 @@
     gap: 1rem;
 }
 
+.hero-btns > a[href = "#projects"] {
+    animation: buttonAnimate 3s ease-in-out infinite;
+}
+
+@keyframes buttonAnimate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.97);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .hero-image {
     flex: 1;
     position: relative;
@@ -45,12 +61,12 @@
     width: 100%;
     max-width: 500px;
     border-radius: 20px;
-    /* animation: float 3s ease-in-out infinite; */
+    animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
     0% { transform: translateY(0); }
-    50% { transform: translateY(-15px); }
+    50% { transform: translateY(-5px); }
     100% { transform: translateY(0); }
 }
 
