@@ -6,7 +6,7 @@
         "image": "/images/dev-naza-portfolio.png",
         "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "EmailJS", "icon": "FaEnvelopeOpen"}],
         "liveDemo": "https://devnaza.netlify.app/",
-        "code": "https://github.com/codimaniac/devnaza.git"
+        "code": "https://github.com/codimaniac/devnaza"
     },
     {
         "id": 2,
@@ -15,12 +15,12 @@
         "image": "/images/schedule-manager.png",
         "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "JavaScript", "icon": "FaJsSquare"}],
         "liveDemo": "https://schedulemanage.netlify.app/",
-        "code": "https://github.com/codimaniac/To-Do-List.git"
+        "code": "https://github.com/codimaniac/To-Do-List"
     },
     {
         "id": 3,
         "title": "Task Management App",
-        "description": "A productivity application for organizing tasks with drag-and-drop functionality and team collaboration.",
+        "description": "A productivity application for organizing tasks, setting deadlines, and tracking progress.",
         "image": "/images/task-manager-dashboard.png",
         "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "D3.js", "icon": "FaChartBar"}, {"tag": "Express", "icon": "SiExpress"}, {"tag": "MongoDB", "icon": "FaDatabase"}],
         "liveDemo": "https://taskmanaager.netlify.app/",
@@ -34,5 +34,14 @@
         "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "TypeScript", "icon": "SiTypescript"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}],
         "liveDemo": "https://jumiacopy.netlify.app/",
         "code": "https://github.com/codimaniac/jumia-clone"
+    },
+    {
+        "id": 5,
+        "title": "Next Gen NFT Marketplace",
+        "description": "A marketplace for buying and selling NFTs with features like user authentication, NFT listing, and bidding system.",
+        "image": "/images/nextgen-nft-marketplace.png",
+        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}],
+        "liveDemo": "https://nextgen-nft-marketplace.netlify.app/",
+        "code": "https://github.com/codimaniac/NextGen-NFT-Marketplace"
     }
 ]
