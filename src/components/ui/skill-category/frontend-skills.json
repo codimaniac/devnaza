@@ -20,15 +20,19 @@
         "icon": "SiTypescript"
     },
     {
-        "name": "Tailwind CSS",
-        "icon": "SiTailwindcss"
-    },
-    {
         "name": "Bootstrap",
         "icon": "FaBootstrap"
     },
     {
+        "name": "Tailwind CSS",
+        "icon": "SiTailwindcss"
+    },
+    {
         "name": "SASS",
         "icon": "FaSass"
+    },
+    {
+        "name": "Framer Motion",
+        "icon": "SiFramer"
     }
 ]

@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* Global Styles */
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --dark-color: #1e293b;
-    --light-color: #f8fafc;
-    --accent-color: #f59e0b;
-    --gray-color: #64748b;
+  --primary-color: #1974D2;   /* Denim Blue */
+  --secondary-color: #145A9E; /* Deeper blue for contrast elements */
+  --dark-color: #0D1B2A;      /* Deep navy for texts and dark sections */
+  --light-color: #F5FAFF;     /* Very light blue-tinted white for backgrounds */
+  --accent-color: #FFAE00;    /* Warm contrast color for buttons, highlights */
+  --gray-color: #64748b;      /* Neutral soft gray for borders, UI elements */
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Space Mono", monospace;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 html {
@@ -37,7 +42,7 @@ body {
     color: white;
     padding: 0.8rem 1.8rem;
     border-radius: 50px;
-    font-weight: 600;
+    font-weight: 400;
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
@@ -53,7 +58,7 @@ body {
 
 .btn-outline {
     background: transparent;
-    border: 2px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
 
