@@ -4,8 +4,12 @@
       "icon": "SiGit"
     },
     {
-      "name": "Git",
+      "name": "Github",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Firebase",
+      "icon": "SiFirebase"
     },
     {
       "name": "Figma",
@@ -22,5 +26,9 @@
     {
       "name": "Vite",
       "icon": "SiVite"
+    },
+    {
+        "name": "Framer Motion",
+        "icon": "SiFramer"
     }
 ]

@@ -20,12 +20,12 @@
         "icon": "SiTypescript"
     },
     {
-        "name": "Tailwind CSS",
-        "icon": "SiTailwindcss"
-    },
-    {
         "name": "Bootstrap",
         "icon": "FaBootstrap"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "SiTailwindcss"
     },
     {
         "name": "SASS",

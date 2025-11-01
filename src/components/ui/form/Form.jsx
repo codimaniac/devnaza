@@ -2,6 +2,7 @@ import { React, useState } from 'react'
 import './form.css'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
+import { IoSendOutline } from 'react-icons/io5';
 
 const Form = () => {
     const [formData, setFormData] = useState({
@@ -65,7 +66,7 @@ const Form = () => {
                     <label htmlFor="message">Message</label>
                     <textarea id="message" value={formData.message} onChange={handleChange} placeholder="Your Message" required></textarea>
                 </div>
-                <button type="submit" className="btn">Send Message</button>
+                <button type="submit" className="btn"><IoSendOutline /> Send Message</button>
             </form>
     </div>
   )

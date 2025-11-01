@@ -1,10 +1,9 @@
-import React from 'react'
 import './navlogo.css'
-import Logo from '../../../assets/images/dev-naza-high-resolution-logo-transparent.png'
+import Logo from '../../../assets/images/dev-naza-high-resolution-logo-transparent-alt.png'
 
 const NavLogo = () => {
   return (
-    <a href="#" className="logo"><img src={Logo} alt='Logo' /></a>
+    <a href="" className="logo"><img src={Logo} alt='Logo' /></a>
   )
 }
 

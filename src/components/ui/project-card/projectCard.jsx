@@ -4,6 +4,7 @@ import Button from '../../ui/button/Button'
 import * as FaIcons from 'react-icons/fa';
 import * as SiIcons from 'react-icons/si';
 import projects from './projects.json'
+import { IoCode, IoLink } from 'react-icons/io5';
 
 const ProjectCard = () => {
     const iconLibraries = {
@@ -33,8 +34,8 @@ const ProjectCard = () => {
                             })}
                         </div>
                         <div className="project-links">
-                            <Button cta={true} label="Live Demo" href={liveDemo} target='_blank' />
-                            <Button cta={false} label="Code" href={code} target='_blank' />
+                            <Button cta={true} label={<><IoCode /> Code</>} href={code} target='_blank' />
+                            <Button cta={false} label={<><IoLink /> Live Demo</>} href={liveDemo} target='_blank' />
                         </div>
                     </div>
                 </div>
