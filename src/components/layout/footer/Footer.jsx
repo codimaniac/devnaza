@@ -16,7 +16,7 @@ const Footer = () => {
                     <a href="https://x.com/simplyanthony07?t=wFbDmr8RPfqGP6ovfWhGeA&s=09" target="_blank"><FaTwitter /></a>
                     <a href="https://www.instagram.com/simplyanthony007?igsh=MTJveTFkZGxkeThxeQ==" target="_blank"><FaInstagram /></a>
                 </div>
-                <p className="copyright">© 2025 Anthony Chinaza. All rights reserved.</p>
+                <p className="copyright">©  Designed and developed by Anthony Chinaza Akachukwu. All rights reserved.</p>
             </div>
         </div>
     </footer>

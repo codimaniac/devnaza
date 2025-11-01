@@ -12,8 +12,8 @@ const Skills = () => {
         <div className="container">
             <h2>My Skills</h2>
             <div className="skills-container">
-                <SkillCategory category="Front-end" categoryIcon="FaCode" skills={frontendSkills} />
-                <SkillCategory category="Back-end" categoryIcon="FaServer" skills={backendSkills} />
+                <SkillCategory category="Frontend Stack" categoryIcon="FaCode" skills={frontendSkills} />
+                <SkillCategory category="Backend Stack" categoryIcon="FaServer" skills={backendSkills} />
                 <SkillCategory category="Database & Tools" categoryIcon="FaDatabase" skills={dbTools} />
             </div>
         </div>

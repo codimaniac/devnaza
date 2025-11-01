@@ -38,7 +38,8 @@ body.dark-mode .skill-category {
     color: #f8f9fa;
 }
 
-body.dark-mode p {
+body.dark-mode p,
+body.dark-mode .skill-item svg {
     color: #c4c4c4;
 }
 
@@ -46,6 +47,7 @@ body.dark-mode .project-card,
 body.dark-mode .skill-category {
     background-color: #252525;
     color: #f8f9fa;
+    border: 1px solid var(--primary-color);
 }
 
 body.dark-mode .project-tag,
@@ -64,11 +66,6 @@ body.dark-mode .form-group textarea {
 
 body.dark-mode .btn-outline {
     color: #f8f9fa;
-    border-color: #f8f9fa;
-}
-
-body.dark-mode .btn-outline:hover {
-    color: #121212;
 }
 
 body.dark-mode footer {

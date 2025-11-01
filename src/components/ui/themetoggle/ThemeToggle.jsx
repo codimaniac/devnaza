@@ -14,7 +14,7 @@ const ThemeToggle = () => {
 
   return (
     <div className="theme-toggle" onClick={toggleTheme}>
-      { darkTheme ? <FaSun className='fa-sun' size={20}/> : <FaMoon className='fa-moon' size={20}/> }
+      { darkTheme ? <FaSun className='fa-sun' size={18}/> : <FaMoon className='fa-moon' size={18}/> }
     </div>
   )
 }

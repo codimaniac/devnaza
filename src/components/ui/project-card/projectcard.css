@@ -1,6 +1,7 @@
 .project-card {
   display: flex;
   flex-direction: column;
+  height: 100%;
   width: 100%;
   max-width: 350px;
   background: var(--surface-color);
@@ -47,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .project-tag {

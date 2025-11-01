@@ -21,6 +21,10 @@
   transition: width 0.3s ease;
 }
 
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
 .nav-links a:hover::after {
   width: 100%;
 }

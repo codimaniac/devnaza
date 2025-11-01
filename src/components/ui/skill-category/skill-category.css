@@ -22,7 +22,7 @@
   gap: 0.5rem;
 }
 
-.skill-category h3 i {
+.skill-category h3 svg {
   color: var(--primary-color);
 }
 
@@ -42,6 +42,6 @@
   gap: 0.5rem;
 }
 
-.skill-item i {
-  color: var(--primary-color);
+.skill-item svg {
+  color: var(--text-color);
 }

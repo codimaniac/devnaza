@@ -1,7 +1,7 @@
 /* Footer */
 footer {
   background: var(--surface-color);
-  padding: 3rem 0;
+  padding: 2rem 0;
   text-align: center;
 }
 
@@ -25,6 +25,7 @@ footer {
 .copyright {
   color: var(--text-light-color);
   font-size: 0.9rem;
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
