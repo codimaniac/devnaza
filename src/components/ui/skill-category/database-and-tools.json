@@ -26,5 +26,9 @@
     {
       "name": "Vite",
       "icon": "SiVite"
+    },
+    {
+        "name": "Framer Motion",
+        "icon": "SiFramer"
     }
 ]

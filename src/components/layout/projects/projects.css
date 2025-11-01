@@ -1,17 +1,18 @@
 /* Projects Section */
 #projects {
-    background-color: white;
+  background-color: var(--surface-color);
 }
 
 .projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
 }
 /* 
 .project-card {
-    background: white;
+    background: var(--surface-color);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -63,7 +64,7 @@
     display: flex;
     align-items: center;
     gap: 0.3rem;
-    background: var(--light-color);
+    background: var(--background-color);
     padding: 0.3rem 0.8rem;
     border-radius: 50px;
     font-size: 0.8rem;

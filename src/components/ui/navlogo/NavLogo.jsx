@@ -1,6 +1,5 @@
-import React from 'react'
 import './navlogo.css'
-import Logo from '../../../assets/images/dev-naza-high-resolution-logo-transparent.png'
+import Logo from '../../../assets/images/dev-naza-high-resolution-logo-transparent-alt.png'
 
 const NavLogo = () => {
   return (

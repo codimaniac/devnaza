@@ -1,29 +1,28 @@
-  /* Navigation Styles */
+/* Navigation Styles */
 .nav-links {
-    display: flex;
-    gap: 4rem;
-    list-style: none;
+  display: flex;
+  gap: 4rem;
+  list-style: none;
 }
 
 .nav-links a {
-    color: var(--dark-color);
-    font-weight: 600;
-    position: relative;
+  color: var(--text-color);
+  position: relative;
 }
 
 .nav-links > li > a::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--primary-color);
-    transition: width 0.3s ease;
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: width 0.3s ease;
 }
 
 .nav-links a:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -42,18 +41,18 @@
   }
 
   .active {
-    display: flex;    /* Show when active */
-    left: 0;          /* Slide in */
+    display: flex; /* Show when active */
+    left: 0; /* Slide in */
   }
 
   .nav-links > li {
     width: 100%;
     padding: 2rem 0;
     margin: 0;
-    border-bottom: 1px solid var(--gray-color);
+    border-bottom: 1px solid var(--primary-color-dark);
   }
 
-  .nav-links .social-icons {    
+  .nav-links .social-icons {
     margin-top: auto;
     display: flex;
     gap: 1.5rem;

@@ -10,28 +10,39 @@
 }
 
 .about-image {
-    flex: 1;
+    flex: 2;
 }
 
 .about-image img {
     width: 100%;
     max-width: 400px;
-    border-radius: 20px;
+    border-radius: 50%;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .about-text {
-    flex: 1;
+    flex: 3;
 }
 
 .about-text h3 {
     margin-bottom: 1.5rem;
 }
 
+.about-text p {
+    text-align: justify;
+}
+
 .experience {
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     margin-top: 2rem;
+}
+
+.experience-item {
+    width: 180px;
+    padding: 1rem;
+    background-color: var(--background-color);
+    border-radius: 10px;
 }
 
 .experience-item h4 {

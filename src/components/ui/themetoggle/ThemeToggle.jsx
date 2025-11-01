@@ -1,23 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './themetoggle.css'
 import { FaSun, FaMoon } from 'react-icons/fa'
 
 const ThemeToggle = () => {
+  const [ darkTheme, setDarkTheme ] = useState(false)
   const toggleTheme = () => {
     const body = document.body;
     body.classList.toggle('dark-mode');
+    setDarkTheme(!darkTheme)
   };
   // const body = document.body;
   // const isDarkMode = body.classList.contains('dark-mode');
 
   return (
-    <div className="theme-toggle">
-        <input type="checkbox" id="dark-mode-toggle" className="toggle-checkbox" onClick={toggleTheme}/>
-        <label htmlFor="dark-mode-toggle" className="toggle-label">
-            <FaSun className='fa-sun'/>
-            <FaMoon className='fa-moon'/>
-            <span className="toggle-ball"></span>
-        </label>
+    <div className="theme-toggle" onClick={toggleTheme}>
+      { darkTheme ? <FaSun className='fa-sun' size={20}/> : <FaMoon className='fa-moon' size={20}/> }
     </div>
   )
 }

@@ -30,10 +30,17 @@
     margin-bottom: 1.5rem;
 }
 
+.hero-text h2::after {
+    left: 0;
+    transform: none;
+    height: 0px;
+}
+
 .hero-text p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     max-width: 600px;
+    text-align: justify;
 }
 
 .hero-btns {
@@ -102,6 +109,7 @@
 
     .hero-image {
         order: -1;
+        margin-top: 0rem;
     }
 
     .hero-image img {

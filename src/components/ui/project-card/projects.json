@@ -22,7 +22,7 @@
         "title": "Task Management App",
         "description": "A productivity application for organizing tasks, setting deadlines, and tracking progress.",
         "image": "/images/task-manager-dashboard.png",
-        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "D3.js", "icon": "FaChartBar"}, {"tag": "Express", "icon": "SiExpress"}, {"tag": "MongoDB", "icon": "FaDatabase"}],
+        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "JavaScript", "icon": "FaJsSquare"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Firebase", "icon": "SiFirebase"}],
         "liveDemo": "https://taskmanaager.netlify.app/",
         "code": "https://github.com/codimaniac/Task-Management-App"
     },
@@ -40,7 +40,7 @@
         "title": "Next Gen NFT Marketplace",
         "description": "A marketplace for buying and selling NFTs with features like user authentication, NFT listing, and bidding system.",
         "image": "/images/nextgen-nft-marketplace.png",
-        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}],
+        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Node.js", "icon": "DiNodejs"}],
         "liveDemo": "https://nextgen-nft-marketplace.netlify.app/",
         "code": "https://github.com/codimaniac/NextGen-NFT-Marketplace"
     }

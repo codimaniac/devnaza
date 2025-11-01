@@ -10,14 +10,7 @@ const Footer = () => {
         <div className="container">
             <div className="footer-content">
                 <NavLogo />
-                <ul className="footer-links">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div className="social-icons">
+                <div className="social-icons" style={{margin: 0}}>
                     <a href="https://github.com/codimaniac" target="_blank"><FaGithub /></a>
                     <a href="https://www.linkedin.com/in/anthony-akachukwu-a270332a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><FaLinkedinIn /></a>
                     <a href="https://x.com/simplyanthony07?t=wFbDmr8RPfqGP6ovfWhGeA&s=09" target="_blank"><FaTwitter /></a>

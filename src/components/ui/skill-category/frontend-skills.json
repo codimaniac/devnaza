@@ -30,9 +30,5 @@
     {
         "name": "SASS",
         "icon": "FaSass"
-    },
-    {
-        "name": "Framer Motion",
-        "icon": "SiFramer"
     }
 ]
