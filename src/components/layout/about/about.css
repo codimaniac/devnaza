@@ -104,3 +104,20 @@
     transition: none !important;
   }
 } */
+
+@media (max-width: 768px) {
+  .experience {
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience-item {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .experience {
+    flex-direction: row;
+  }
+}
