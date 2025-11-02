@@ -26,6 +26,11 @@ body.dark-mode .nav-links a {
     color: #f8f9fa;
 }
 
+body.dark-mode .nav-links {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
 body.dark-mode .nav-links .social-icons a {
     color: var(--primary-color);
 }

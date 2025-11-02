@@ -1,11 +1,10 @@
-import React from 'react'
 import './hamburger.css'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { RiCloseLine, RiMenu3Line } from 'react-icons/ri'
 
 const Hamburger = ({ isOpen, toggleNav }) => {
   return (
     <div className="hamburger" onClick={toggleNav}>
-        {isOpen ? <FaTimes size={24} className='fa-times' /> : <FaBars size={24} className='fa-bars' />}
+        {isOpen ? <RiCloseLine size={24} className='fa-times' /> : <RiMenu3Line size={24} className='fa-bars' />}
     </div>
   )
 }

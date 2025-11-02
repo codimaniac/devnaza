@@ -41,7 +41,7 @@
   .nav-links {
     display: none;
     position: absolute;
-    top: 94px;
+    top: 92px;
     left: 0;
     width: 100%;
     background: white;
@@ -50,7 +50,6 @@
     gap: 1rem;
     padding: 2rem;
     transition: all 0.5s ease;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
 
   .active {
