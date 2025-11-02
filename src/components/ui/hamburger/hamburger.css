@@ -1,9 +1,4 @@
-/* Adjust hamburger menu for dark mode */
-@media screen and (max-width: 768px) {
-    body.dark-mode .nav-links {
-        background-color: #1e1e1e;
-    }
-}
+
 
 .hamburger {
     display: none;
