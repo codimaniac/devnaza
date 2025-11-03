@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div className="about-text">
                     <h3>Frontend React Developer Based in Nigeria</h3>
-                    <p>I specialize in creating modern, responsive websites and web applications using the latest technologies. With over 2 years of experience in building real life web applications, I'm can help bring your product to life.</p>
+                    <p>I build modern, responsive websites and web applications using the latest technologies. With over 2 years of hands-on experience creating real-world digital products, I’m here to help bring your ideas to life with clean, scalable solutions.</p>
                     <p>My approach combines technical expertise with creative problem-solving to deliver solutions that are not only functional but also visually appealing and user-friendly.</p>
                     <div className="experience">
                         <div className="experience-item">
