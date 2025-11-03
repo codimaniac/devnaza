@@ -52,19 +52,19 @@ const Form = () => {
             <form onSubmit={sendEmail}>
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
-                    <input type="text" id="name" value={formData.name} onChange={handleChange} placeholder="Your Name" required />
+                    <input type="text" id="name" value={formData.name} onChange={handleChange} placeholder="Enter your full name" required />
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">Email</label>
-                    <input type="email" id="email" value={formData.email} onChange={handleChange} placeholder="Your Email" required />
+                    <input type="email" id="email" value={formData.email} onChange={handleChange} placeholder="Enter your email address" required />
                 </div>
                 <div className="form-group">
                     <label htmlFor="subject">Subject</label>
-                    <input type="text" id="subject" value={formData.subject} onChange={handleChange} placeholder="Subject" />
+                    <input type="text" id="subject" value={formData.subject} onChange={handleChange} placeholder="e.g. Project Inquiry" />
                 </div>
                 <div className="form-group">
                     <label htmlFor="message">Message</label>
-                    <textarea id="message" value={formData.message} onChange={handleChange} placeholder="Your Message" required></textarea>
+                    <textarea id="message" value={formData.message} onChange={handleChange} placeholder="Tell me about your project..." required></textarea>
                 </div>
                 <button type="submit" className="btn"><IoSendOutline /> Send Message</button>
             </form>

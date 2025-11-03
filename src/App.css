@@ -37,7 +37,6 @@ body.dark-mode .nav-links .social-icons a {
 
 body.dark-mode #about,
 body.dark-mode #projects,
-body.dark-mode .contact-form,
 body.dark-mode .skill-category {
     background-color: #1e1e1e;
     color: #f8f9fa;
@@ -49,7 +48,8 @@ body.dark-mode .skill-item svg {
 }
 
 body.dark-mode .project-card,
-body.dark-mode .skill-category {
+body.dark-mode .skill-category,
+body.dark-mode .contact-form {
     background-color: #252525;
     color: #f8f9fa;
     border: 1px solid var(--primary-color);
