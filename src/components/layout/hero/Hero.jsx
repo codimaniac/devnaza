@@ -49,7 +49,7 @@ const Hero = () => {
             variants={{ hidden: { opacity: 0, transform: `translateX(100%)` }, show: { opacity: 1, transform: `translateX(0%)`, transition: { duration: 1 } } }}
             className="hero-image"
           >
-            <img src={HeroImage} alt="Developer working" fetchPriority="high" />
+            <img src={HeroImage} alt="Developer working" decoding="sync" loading="eager" fetchPriority="high" />
           </motion.div>
         </motion.div>
       </div>
