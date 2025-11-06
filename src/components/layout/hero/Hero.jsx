@@ -3,7 +3,7 @@ import "./hero.css";
 import Button from "../../ui/button/Button";
 import HeroImage from "../../../assets/images/hero-svg.svg";
 import SocialLinks from "../../ui/social-links/SocialLinks";
-import { IoBook, IoMailOutline } from "react-icons/io5";
+import { IoMailOutline } from "react-icons/io5";
 import { FiFolder } from "react-icons/fi";
 
 const Hero = () => {

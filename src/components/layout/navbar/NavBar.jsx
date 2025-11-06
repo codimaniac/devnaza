@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './navbar.css'
 import NavLinks from '../../ui/navlinks/NavLinks'
 import NavLogo from '../../ui/navlogo/NavLogo'
@@ -13,14 +13,16 @@ const NavBar = () => {
   };
   
   return (
-    <div className="nav-container">
-      <nav>
-        <NavLogo />
-        <NavLinks isOpen={isNavOpen} toggleNav={toggleNav} />
-        <ThemeToggle />
-        <Hamburger isOpen={isNavOpen} toggleNav={toggleNav} />
-      </nav>
-    </div>
+    <header>
+      <div className="nav-container">
+        <nav>
+          <NavLogo />
+          <NavLinks isOpen={isNavOpen} toggleNav={toggleNav} />
+          <ThemeToggle />
+          <Hamburger isOpen={isNavOpen} toggleNav={toggleNav} />
+        </nav>
+      </div>
+    </header>
   )
 }
 

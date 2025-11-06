@@ -6,9 +6,7 @@ import 'react-toastify/dist/ReactToastify.css'
 const App = () => {
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
+      <NavBar />
       <ToastContainer />
       <Hero />
       <About />
