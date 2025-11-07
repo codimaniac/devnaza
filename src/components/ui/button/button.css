@@ -17,7 +17,7 @@
 .btn:hover {
   background: var(--primary-color-dark);
   color: white;
-  transform: translateY(-3px);
+  transform: scale(0.97);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 

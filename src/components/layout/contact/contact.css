@@ -11,6 +11,12 @@
     gap: 1rem;
 }
 
+.center-items {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .contact-item {
     display: flex;
     align-items: flex-start;

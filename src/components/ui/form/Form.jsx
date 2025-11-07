@@ -3,6 +3,7 @@ import "./form.css";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { IoSendOutline } from "react-icons/io5";
+import { motion } from 'framer-motion';
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -61,7 +62,7 @@ const Form = () => {
   };
 
   return (
-    <div className="contact-form">
+    <motion.div initial={{ opacity: 0, transform: `translateX(100%)` }} whileInView={{ opacity: 1, transform: `translateX(0%)` }} transition={{ duration: 1, ease: "easeOut" }} className="contact-form">
       <form onSubmit={sendEmail}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
@@ -109,7 +110,7 @@ const Form = () => {
           <IoSendOutline /> Send Message
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 

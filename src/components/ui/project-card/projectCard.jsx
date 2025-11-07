@@ -1,4 +1,4 @@
-import React from 'react'
+import { motion } from 'framer-motion';
 import './projectcard.css'
 import Button from '../../ui/button/Button'
 import * as FaIcons from 'react-icons/fa';
@@ -14,7 +14,7 @@ const ProjectCard = () => {
     return (
         <>
             {projects.map(({ id, title, description, image, tags, liveDemo, code }) => (
-                <div className="project-card" key={id}>
+                <motion.div className="project-card" key={id} initial={{ scale: 0.5, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.25 * id, duration: 0.25 * id, ease: [0.42, 0, 0.58, 1] }}>
                     <div className="project-image">
                         <img src={image} alt={title} />
                     </div>
@@ -38,7 +38,7 @@ const ProjectCard = () => {
                             <Button cta={false} label={<><IoLink /> Live Demo</>} href={liveDemo} target='_blank' />
                         </div>
                     </div>
-                </div>
+                </motion.div>
             ))}
         </>
     )

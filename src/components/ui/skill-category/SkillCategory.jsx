@@ -1,4 +1,4 @@
-import React from "react";
+import { motion } from "framer-motion";
 import "./skill-category.css";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
@@ -12,11 +12,11 @@ const iconLibraries = {
   Di: DiIcons,
 };
 
-const SkillCategory = ({ category, categoryIcon, skills }) => {
+const SkillCategory = ({ category, categoryIcon, skills, delayFactor }) => {
   const prefix = categoryIcon.slice(0, 2); // e.g., 'Fa', 'Si'
   const Icon = iconLibraries[prefix]?.[categoryIcon];
   return (
-    <div className="skill-category">
+    <motion.div initial={{ scale: 0.5, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.25 * delayFactor, duration: 0.25 * delayFactor, ease: "easeInOut" }} className="skill-category">
       <h3>
         {Icon && <Icon size={24} />} {category}
       </h3>
@@ -32,7 +32,7 @@ const SkillCategory = ({ category, categoryIcon, skills }) => {
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
