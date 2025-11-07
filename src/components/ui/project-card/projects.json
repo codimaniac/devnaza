@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "DevNaza",
-        "description": "A portfolio website showcasing my projects and skills.",
+        "description": "A personal developer portfolio built with React and Framer Motion, showcasing projects, skills, contact, responsive design, lazy-loaded sections, and smooth animations..",
         "image": "/images/dev-naza-portfolio.png",
         "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "EmailJS", "icon": "FaEnvelopeOpen"}],
         "liveDemo": "https://devnaza.netlify.app/",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "title": "Task Management App",
-        "description": "A productivity application for organizing tasks, setting deadlines, and tracking progress.",
+        "description": "Taskly is a lightweight React/Vite task management app with Firebase auth, intuitive UI, task creation, sorting, notifications, and responsive sidebar.",
         "image": "/images/task-manager-dashboard.png",
         "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "JavaScript", "icon": "FaJsSquare"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Firebase", "icon": "SiFirebase"}],
         "liveDemo": "https://taskmanaager.netlify.app/",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "title": "Next Gen NFT Marketplace",
-        "description": "A marketplace for buying and selling NFTs with features like user authentication, NFT listing, and bidding system.",
+        "description": "A modern NFT marketplace platform built with React and Vite, featuring creator profiles, NFT collections, blog integration, and secure authentication system.",
         "image": "/images/nextgen-nft-marketplace.webp",
         "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Node.js", "icon": "DiNodejs"}],
         "liveDemo": "https://nextgen-nft-marketplace.netlify.app/",
