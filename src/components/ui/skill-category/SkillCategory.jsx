@@ -16,7 +16,7 @@ const SkillCategory = ({ category, categoryIcon, skills, delayFactor }) => {
   const prefix = categoryIcon.slice(0, 2); // e.g., 'Fa', 'Si'
   const Icon = iconLibraries[prefix]?.[categoryIcon];
   return (
-    <motion.div initial={{ scale: 0.5, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.25 * delayFactor, duration: 0.25 * delayFactor, ease: "easeInOut" }} className="skill-category">
+    <motion.div initial={{ scale: 0.5, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.125 * delayFactor, ease: "easeInOut" }} className="skill-category">
       <h3>
         {Icon && <Icon size={24} />} {category}
       </h3>

@@ -62,7 +62,7 @@ const Form = () => {
   };
 
   return (
-    <motion.div initial={{ opacity: 0, transform: `translateX(100%)` }} whileInView={{ opacity: 1, transform: `translateX(0%)` }} transition={{ duration: 1, ease: "easeOut" }} className="contact-form">
+    <motion.div initial={{ opacity: 0, transform: `translateX(100%)` }} whileInView={{ opacity: 1, transform: `translateX(0%)` }} viewport={{once: true}} transition={{ duration: 1, ease: "easeOut" }} className="contact-form">
       <form onSubmit={sendEmail}>
         <div className="form-group">
           <label htmlFor="name">Name</label>

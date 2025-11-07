@@ -14,7 +14,7 @@ const ProjectCard = () => {
     return (
         <>
             {projects.map(({ id, title, description, image, tags, liveDemo, code }) => (
-                <motion.div className="project-card" key={id} initial={{ scale: 0.5, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.25 * id, duration: 0.25 * id, ease: [0.42, 0, 0.58, 1] }}>
+                <motion.div className="project-card" key={id} initial={{ scale: 0.5, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.125 * id, ease: [0.42, 0, 0.58, 1] }}>
                     <div className="project-image">
                         <img src={image} alt={title} />
                     </div>

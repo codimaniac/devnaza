@@ -35,16 +35,20 @@ const Contact = () => {
     return variants
   };
 
-  const sectionTitleVariants = {
-    hidden: { opacity: 0, transform: 'translateY(100%)' },
-    show: { opacity: 1, transform: 'translateY(0%)', transition: { ease: "easeOut", duration: 1 } },
+  const sectionTitleVariants = (displace) => {
+    const variants = {
+      hidden: { opacity: 0, transform: `translateY(${displace})` },
+      show: { opacity: 1, transform: 'translateY(0%)', transition: { ease: "easeOut", duration: 1 } }
+    }
+
+    return variants
   };
 
   return (
     // Contact Section
     <motion.section variants={sectionVariants()} initial="hidden" whileInView="show" viewport={{ once: true }} id="contact">
         <div className="container">
-            <motion.h2 variants={sectionTitleVariants}>Get In Touch</motion.h2>
+            <motion.h2 variants={sectionTitleVariants("100%")}>Get In Touch</motion.h2>
             <div className="contact-container">
                 <motion.div variants={parentVariants("-100%")} initial="hidden" whileInView="show" viewport={{ once: true }} className="contact-info">
                     <motion.h3 variants={childVariants(1)}>Let's talk about your project</motion.h3>

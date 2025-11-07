@@ -34,11 +34,20 @@ const About = () => {
       show: {
         opacity: 1,
         transform: `scale(1)`,
-        transition: { duration: 0.25 * childPosition },
+        transition: { duration: 0.5 * childPosition },
       },
     };
 
     return variants;
+  };
+
+  const sectionTitleVariants = (displace) => {
+    const variants = {
+      hidden: { opacity: 0, transform: `translateY(${displace})` },
+      show: { opacity: 1, transform: 'translateY(0%)', transition: { ease: "easeOut", duration: 1 } }
+    }
+
+    return variants
   };
 
   return (
@@ -52,15 +61,15 @@ const About = () => {
     >
       <div className="container">
         <motion.h2
-          variants={parentVariants("100%")}
+          variants={sectionTitleVariants("100%")}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 1 }}
         >
           About Me
         </motion.h2>
         <motion.div
-          variants={parentVariants("10%")}
+          variants={parentVariants("30%")}
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}

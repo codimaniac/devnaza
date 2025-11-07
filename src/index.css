@@ -117,6 +117,10 @@ li {
   list-style-position: inside;
 }
 
+#hero, #contact {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: var(--primary-color);
