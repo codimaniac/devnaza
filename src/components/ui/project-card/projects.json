@@ -28,15 +28,6 @@
     },
     {
         "id": 4,
-        "title": "Jumia Clone",
-        "description": "A clone of Jumia home page wih features such as carousel, a product card and a search bar etc.",
-        "image": "/images/Jumia.jpg",
-        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "TypeScript", "icon": "SiTypescript"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}],
-        "liveDemo": "https://jumiacopy.netlify.app/",
-        "code": "https://github.com/codimaniac/jumia-clone"
-    },
-    {
-        "id": 5,
         "title": "Next Gen NFT Marketplace",
         "description": "A modern NFT marketplace platform built with React and Vite, featuring creator profiles, NFT collections, blog integration, and secure authentication system.",
         "image": "/images/nextgen-nft-marketplace.webp",
