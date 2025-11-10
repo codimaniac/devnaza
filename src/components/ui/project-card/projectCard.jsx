@@ -1,16 +1,59 @@
 import { motion } from 'framer-motion';
 import './projectcard.css'
 import Button from '../../ui/button/Button'
-import * as FaIcons from 'react-icons/fa';
-import * as SiIcons from 'react-icons/si';
+import { 
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaBootstrap,
+  FaEnvelopeOpen,
+  FaSass,
+  FaGithub,
+  FaServer
+} from "react-icons/fa";
+import { 
+  SiAxios, 
+  SiExpress, 
+  SiFigma, 
+  SiFirebase, 
+  SiFramer, 
+  SiGit, 
+  SiMui, 
+  SiNodedotjs, 
+  SiNpm, 
+  SiTailwindcss, 
+  SiTypescript, 
+  SiVite 
+} from "react-icons/si";
 import projects from './projects.json'
 import { IoCode, IoLink } from 'react-icons/io5';
 
+export const iconMap = {
+  "FaHtml5": FaHtml5,
+  "FaCss3": FaCss3,
+  "FaJs": FaJs,
+  "FaReact": FaReact,
+  "FaEnvelopeOpen": FaEnvelopeOpen,
+  "FaBootstrap": FaBootstrap,
+  "FaSass": FaSass,
+  "FaGithub": FaGithub,
+  "FaServer": FaServer,
+  "SiAxios": SiAxios, 
+  "SiExpress": SiExpress, 
+  "SiFigma": SiFigma, 
+  "SiFirebase": SiFirebase, 
+  "SiFramer": SiFramer, 
+  "SiGit": SiGit, 
+  "SiMui": SiMui, 
+  "SiNodedotjs": SiNodedotjs, 
+  "SiNpm": SiNpm, 
+  "SiTailwindcss": SiTailwindcss, 
+  "SiTypescript": SiTypescript, 
+  "SiVite": SiVite 
+};
+
 const ProjectCard = () => {
-    const iconLibraries = {
-      Fa: FaIcons,
-      Si: SiIcons,
-    };
     return (
         <>
             {projects.map(({ id, title, description, image, tags, liveDemo, code }) => (
@@ -23,12 +66,11 @@ const ProjectCard = () => {
                         <p>{description}</p>
                         <div className="project-tags">
                             {tags.map(({ tag, icon }) => {
-                                const prefix = icon.slice(0, 2); // e.g., 'Fa', 'Si'
-                                const IconComponent = iconLibraries[prefix]?.[icon];
+                                const Icon = iconMap[icon];
                                 const isEmailJs = tag === "EmailJS"
                                 return (
                                     <span className="project-tag" key={tag}>
-                                        {IconComponent && <IconComponent style={ isEmailJs ? {transform: 'rotate(45deg)'} : undefined} />} {tag}
+                                        {Icon && <Icon style={ isEmailJs ? {transform: 'rotate(45deg)'} : undefined} />} {tag}
                                     </span>
                                 );
                             })}

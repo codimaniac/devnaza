@@ -1,20 +1,56 @@
 import { motion } from "framer-motion";
 import "./skill-category.css";
-import * as FaIcons from "react-icons/fa";
-import * as SiIcons from "react-icons/si";
-import * as IoIcons from "react-icons/io";
-import * as DiIcons from "react-icons/di"; // Add more if needed
+import { 
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaBootstrap,
+  FaSass,
+  FaGithub,
+  FaServer
+} from "react-icons/fa";
+import { 
+  SiAxios, 
+  SiExpress, 
+  SiFigma, 
+  SiFirebase, 
+  SiFramer, 
+  SiGit, 
+  SiMui, 
+  SiNodedotjs, 
+  SiNpm, 
+  SiTailwindcss, 
+  SiTypescript, 
+  SiVite 
+} from "react-icons/si";
 
-const iconLibraries = {
-  Fa: FaIcons,
-  Si: SiIcons,
-  Io: IoIcons,
-  Di: DiIcons,
+export const iconMap = {
+  "FaHtml5": FaHtml5,
+  "FaCss3": FaCss3,
+  "FaJs": FaJs,
+  "FaReact": FaReact,
+  "FaBootstrap": FaBootstrap,
+  "FaSass": FaSass,
+  "FaGithub": FaGithub,
+  "FaServer": FaServer,
+  "SiAxios": SiAxios, 
+  "SiExpress": SiExpress, 
+  "SiFigma": SiFigma, 
+  "SiFirebase": SiFirebase, 
+  "SiFramer": SiFramer, 
+  "SiGit": SiGit, 
+  "SiMui": SiMui, 
+  "SiNodedotjs": SiNodedotjs, 
+  "SiNpm": SiNpm, 
+  "SiTailwindcss": SiTailwindcss, 
+  "SiTypescript": SiTypescript, 
+  "SiVite": SiVite 
 };
 
+
 const SkillCategory = ({ category, categoryIcon, skills, delayFactor }) => {
-  const prefix = categoryIcon.slice(0, 2); // e.g., 'Fa', 'Si'
-  const Icon = iconLibraries[prefix]?.[categoryIcon];
+  const Icon = iconMap[categoryIcon];
   return (
     <motion.div initial={{ scale: 0.5, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.125 * delayFactor, ease: "easeInOut" }} className="skill-category">
       <h3>
@@ -22,8 +58,7 @@ const SkillCategory = ({ category, categoryIcon, skills, delayFactor }) => {
       </h3>
       <div className="skill-items">
         {skills.map(({ name, icon }) => {
-          const prefix = icon.slice(0, 2); // e.g., 'Fa', 'Si'
-          const IconComponent = iconLibraries[prefix]?.[icon];
+          const IconComponent = iconMap[icon];
 
           return (
             <span className="skill-item" key={name}>
@@ -32,6 +67,7 @@ const SkillCategory = ({ category, categoryIcon, skills, delayFactor }) => {
           );
         })}
       </div>
+      
     </motion.div>
   );
 };

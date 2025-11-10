@@ -13,7 +13,7 @@
         "title": "To-do List App",
         "description": "A simple to-do list application with features like adding, editing, and deleting tasks.",
         "image": "/images/schedule-manager.png",
-        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "JavaScript", "icon": "FaJsSquare"}],
+        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "JavaScript", "icon": "FaJs"}],
         "liveDemo": "https://schedulemanage.netlify.app/",
         "code": "https://github.com/codimaniac/To-Do-List"
     },
@@ -22,7 +22,7 @@
         "title": "Task Management App",
         "description": "Taskly is a lightweight React/Vite task management app with Firebase auth, intuitive UI, task creation, sorting, notifications, and responsive sidebar.",
         "image": "/images/task-manager-dashboard.png",
-        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "JavaScript", "icon": "FaJsSquare"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Firebase", "icon": "SiFirebase"}],
+        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "JavaScript", "icon": "FaJs"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Firebase", "icon": "SiFirebase"}],
         "liveDemo": "https://taskmanaager.netlify.app/",
         "code": "https://github.com/codimaniac/Task-Management-App"
     },
@@ -40,7 +40,7 @@
         "title": "Next Gen NFT Marketplace",
         "description": "A modern NFT marketplace platform built with React and Vite, featuring creator profiles, NFT collections, blog integration, and secure authentication system.",
         "image": "/images/nextgen-nft-marketplace.webp",
-        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Node.js", "icon": "DiNodejs"}],
+        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Node.js", "icon": "SiNodedotjs"}],
         "liveDemo": "https://nextgen-nft-marketplace.netlify.app/",
         "code": "https://github.com/codimaniac/NextGen-NFT-Marketplace"
     }
