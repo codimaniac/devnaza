@@ -1,38 +1,75 @@
 [
-    {
-        "id": 1,
-        "title": "DevNaza",
-        "description": "A personal developer portfolio built with React and Framer Motion, showcasing projects, skills, contact, responsive design, lazy-loaded sections, and smooth animations..",
-        "image": "/images/dev-naza-portfolio.png",
-        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "EmailJS", "icon": "FaEnvelopeOpen"}],
-        "liveDemo": "https://devnaza.netlify.app/",
-        "code": "https://github.com/codimaniac/devnaza"
-    },
-    {
-        "id": 2,
-        "title": "To-do List App",
-        "description": "A simple to-do list application with features like adding, editing, and deleting tasks.",
-        "image": "/images/schedule-manager.png",
-        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "JavaScript", "icon": "FaJs"}],
-        "liveDemo": "https://schedulemanage.netlify.app/",
-        "code": "https://github.com/codimaniac/To-Do-List"
-    },
-    {
-        "id": 3,
-        "title": "Task Management App",
-        "description": "Taskly is a lightweight React/Vite task management app with Firebase auth, intuitive UI, task creation, sorting, notifications, and responsive sidebar.",
-        "image": "/images/task-manager-dashboard.png",
-        "tags": [{"tag": "React", "icon": "FaReact"}, {"tag": "JavaScript", "icon": "FaJs"}, {"tag": "CSS", "icon": "FaCss3"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Firebase", "icon": "SiFirebase"}],
-        "liveDemo": "https://taskmanaager.netlify.app/",
-        "code": "https://github.com/codimaniac/Task-Management-App"
-    },
-    {
-        "id": 4,
-        "title": "Next Gen NFT Marketplace",
-        "description": "A modern NFT marketplace platform built with React and Vite, featuring creator profiles, NFT collections, blog integration, and secure authentication system.",
-        "image": "/images/nextgen-nft-marketplace.webp",
-        "tags": [{"tag": "HTML", "icon": "FaHtml5"}, {"tag": "Tailwind CSS", "icon": "SiTailwindcss"}, {"tag": "React", "icon": "FaReact"}, {"tag": "Vite.js", "icon": "SiVite"}, {"tag": "Node.js", "icon": "SiNodedotjs"}],
-        "liveDemo": "https://nextgen-nft-marketplace.netlify.app/",
-        "code": "https://github.com/codimaniac/NextGen-NFT-Marketplace"
-    }
+  {
+    "id": 1,
+    "title": "DevNaza",
+    "description": "A personal developer portfolio built with React and Framer Motion, showcasing projects, skills, contact, responsive design, lazy-loaded sections, and smooth animations..",
+    "image": "/images/dev-naza-portfolio.png",
+    "tags": [
+      { "tag": "React", "icon": "FaReact" },
+      { "tag": "CSS", "icon": "FaCss3" },
+      { "tag": "Vite.js", "icon": "SiVite" },
+      { "tag": "EmailJS", "icon": "FaEnvelopeOpen" }
+    ],
+    "liveDemo": "https://devnaza.netlify.app/",
+    "code": "https://github.com/codimaniac/devnaza"
+  },
+  {
+    "id": 2,
+    "title": "To-do List App",
+    "description": "A simple to-do list application with features like adding, editing, and deleting tasks.",
+    "image": "/images/schedule-manager.png",
+    "tags": [
+      { "tag": "HTML", "icon": "FaHtml5" },
+      { "tag": "CSS", "icon": "FaCss3" },
+      { "tag": "JavaScript", "icon": "FaJs" }
+    ],
+    "liveDemo": "https://schedulemanage.netlify.app/",
+    "code": "https://github.com/codimaniac/To-Do-List"
+  },
+  {
+    "id": 3,
+    "title": "Task Management App",
+    "description": "Taskly is a lightweight React/Vite task management app with Firebase auth, intuitive UI, task creation, sorting, notifications, and responsive sidebar.",
+    "image": "/images/task-manager-dashboard.png",
+    "tags": [
+      { "tag": "React", "icon": "FaReact" },
+      { "tag": "JavaScript", "icon": "FaJs" },
+      { "tag": "CSS", "icon": "FaCss3" },
+      { "tag": "Vite.js", "icon": "SiVite" },
+      { "tag": "Firebase", "icon": "SiFirebase" }
+    ],
+    "liveDemo": "https://taskmanaager.netlify.app/",
+    "code": "https://github.com/codimaniac/Task-Management-App"
+  },
+  {
+    "id": 4,
+    "title": "Next Gen NFT Marketplace",
+    "description": "A modern NFT marketplace platform built with React and Vite, featuring creator profiles, NFT collections, blog integration, and secure authentication system.",
+    "image": "/images/nextgen-nft-marketplace.webp",
+    "tags": [
+      { "tag": "HTML", "icon": "FaHtml5" },
+      { "tag": "Tailwind CSS", "icon": "SiTailwindcss" },
+      { "tag": "React", "icon": "FaReact" },
+      { "tag": "Vite.js", "icon": "SiVite" },
+      { "tag": "Node.js", "icon": "SiNodedotjs" }
+    ],
+    "liveDemo": "https://nextgen-nft-marketplace.netlify.app/",
+    "code": "https://github.com/codimaniac/NextGen-NFT-Marketplace"
+  },
+  {
+    "id": 5,
+    "title": "Maglo Finance Management Dashboard",
+    "description": "A responsive and interactive finance dashboard for small businesses, featuring real-time invoice management, VAT calculations, authentication, and financial summaries with charts.",
+    "image": "/images/maglo-finance-manager-preview.png",
+    "tags": [
+      { "tag": "React", "icon": "FaReact" },
+      { "tag": "Vite.js", "icon": "SiVite" },
+      { "tag": "Tailwind CSS", "icon": "SiTailwindcss" },
+      { "tag": "ShadCN UI", "icon": "SiShadcnui" },
+      { "tag": "Appwrite", "icon": "SiAppwrite" },
+      { "tag": "Netlify", "icon": "SiNetlify" }
+    ],
+    "liveDemo": "https://maglo-finance-gilt.netlify.app/",
+    "code": "https://github.com/codimaniac/maglo-finance"
+  }
 ]

@@ -11,6 +11,7 @@ import {
   FaServer
 } from "react-icons/fa";
 import { 
+  SiAppwrite,
   SiAxios, 
   SiExpress, 
   SiFigma, 
@@ -18,8 +19,10 @@ import {
   SiFramer, 
   SiGit, 
   SiMui, 
+  SiNetlify, 
   SiNodedotjs, 
   SiNpm, 
+  SiShadcnui, 
   SiTailwindcss, 
   SiTypescript, 
   SiVite 
@@ -34,15 +37,18 @@ export const iconMap = {
   "FaSass": FaSass,
   "FaGithub": FaGithub,
   "FaServer": FaServer,
+  "SiAppwrite": SiAppwrite,
   "SiAxios": SiAxios, 
   "SiExpress": SiExpress, 
   "SiFigma": SiFigma, 
   "SiFirebase": SiFirebase, 
   "SiFramer": SiFramer, 
   "SiGit": SiGit, 
-  "SiMui": SiMui, 
+  "SiMui": SiMui,
+  "SiNetlify": SiNetlify,
   "SiNodedotjs": SiNodedotjs, 
-  "SiNpm": SiNpm, 
+  "SiNpm": SiNpm,
+  "SiShadcnui": SiShadcnui,
   "SiTailwindcss": SiTailwindcss, 
   "SiTypescript": SiTypescript, 
   "SiVite": SiVite 

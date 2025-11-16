@@ -8,12 +8,12 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Firebase",
-      "icon": "SiFirebase"
-    },
-    {
       "name": "Figma",
       "icon": "SiFigma"
+    },
+    {
+      "name": "ShadCN UI",
+      "icon": "SiShadcnui"
     },
     {
       "name": "Material UI",
@@ -28,7 +28,11 @@
       "icon": "SiVite"
     },
     {
-        "name": "Framer Motion",
-        "icon": "SiFramer"
+      "name": "Framer Motion",
+      "icon": "SiFramer"
+    },
+    {
+      "name": "Netlify",
+      "icon": "SiNetlify"
     }
 ]

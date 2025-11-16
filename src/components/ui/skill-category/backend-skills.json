@@ -14,5 +14,13 @@
   {
       "name": "Axios",
       "icon": "SiAxios"
+  },
+  {
+      "name": "Appwrite",
+      "icon": "SiAppwrite"
+  },
+  {
+      "name": "Firebase",
+      "icon": "SiFirebase"
   }
 ]
